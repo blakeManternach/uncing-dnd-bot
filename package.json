@@ -1,0 +1,14 @@
+{
+  "name": "uncing_dnd_bot",
+  "version": "1.0.0",
+  "description": "Basic dnd bot.  Allows users to roll dice with !roll command.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  }
+}
