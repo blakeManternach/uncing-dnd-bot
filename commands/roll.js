@@ -11,6 +11,7 @@ module.exports = {
           "The number of sides to the dice you want rolled.  Must be a number greater than 0."
         )
         .setRequired(true)
+        .setMinValue(1)
     ),
   async execute(interaction) {
     const sidedDice = interaction.options.getInteger("sides");
