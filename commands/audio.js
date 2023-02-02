@@ -48,7 +48,7 @@ module.exports = {
 
       if (!voiceChannel) {
         interaction.reply(
-          "You must first join a voice channel to use the play command"
+          "You must first join a voice channel to use the audio command"
         );
         return;
       }
